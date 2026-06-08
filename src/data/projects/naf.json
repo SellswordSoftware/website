@@ -1,0 +1,24 @@
+{
+  "id": "naf",
+  "name": "NAF",
+  "oneLiner": "Fine-grained reactivity and tiny SPA helpers without a framework.",
+  "license": "MIT",
+  "status": "Shipping",
+  "description": [
+    "NAF is the runtime underneath this site. It stays close to the DOM, keeps routing simple, and gives you just enough structure to build without turning the codebase into framework ceremony.",
+    "For this website it handles template-backed components and hash-based routing while keeping the project plain JavaScript."
+  ],
+  "features": [
+    "Signals, computed values, and effects for fine-grained reactivity",
+    "Tagged-template component shells with lifecycle hooks",
+    "Hash-router support for static hosting targets",
+    "Copy-first runtime that can be imported directly from a git submodule"
+  ],
+  "install": [
+    "Add the repo as a submodule or copy the runtime file into your project.",
+    "Import from vendor/naf/naf.ts and bundle with esbuild or use it directly in TypeScript-aware tooling."
+  ],
+  "repo": "https://github.com/SellswordSoftware/naf",
+  "releases": "https://github.com/SellswordSoftware/naf/releases",
+  "docs": "https://github.com/SellswordSoftware/naf#readme"
+}

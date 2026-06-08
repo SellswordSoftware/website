@@ -1,0 +1,6 @@
+[submodule "vendor/naf"]
+	path = vendor/naf
+	url = https://github.com/SellswordSoftware/naf.git
+[submodule "vendor/nass"]
+	path = vendor/nass
+	url = https://github.com/SellswordSoftware/nass.git

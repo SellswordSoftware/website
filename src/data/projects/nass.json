@@ -1,0 +1,24 @@
+{
+  "id": "nass",
+  "name": "NASS",
+  "oneLiner": "Foundation CSS, themes, and reusable primitives without design-system sprawl.",
+  "license": "MIT",
+  "status": "Shipping",
+  "description": [
+    "NASS provides the baseline visual language for this repo: resets, tokens, themes, and a small set of primitives.",
+    "The website imports NASS directly from the submodule so the site doubles as a realistic integration example."
+  ],
+  "features": [
+    "Foundation entrypoints for reset, tokens, themes, and base styles",
+    "Reusable primitives like cards, badges, panels, and buttons",
+    "Light and dark themes driven by data-theme",
+    "Optional runtime helpers shipped alongside direct-file TypeScript declarations"
+  ],
+  "install": [
+    "Import vendor/nass/src/entries/index.css before your app styles.",
+    "Layer product-specific CSS on top instead of growing NASS into a full design system."
+  ],
+  "repo": "https://github.com/SellswordSoftware/nass",
+  "releases": "https://github.com/SellswordSoftware/nass/releases",
+  "docs": "https://github.com/SellswordSoftware/nass#readme"
+}

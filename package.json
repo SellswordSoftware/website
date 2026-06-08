@@ -1,0 +1,16 @@
+{
+  "name": "sellsword-software-website",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "node scripts/dev.mjs",
+    "dev:build": "node esbuild.config.js --watch",
+    "dev:serve": "node scripts/dev-server.mjs",
+    "preview": "node scripts/dev-server.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.1"
+  }
+}

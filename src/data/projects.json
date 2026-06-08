@@ -1,0 +1,34 @@
+[
+  {
+    "id": "naf",
+    "name": "NAF",
+    "oneLiner": "Fine-grained reactivity and tiny SPA helpers without a framework.",
+    "license": "MIT",
+    "status": "Shipping",
+    "repo": "https://github.com/SellswordSoftware/naf"
+  },
+  {
+    "id": "nass",
+    "name": "NASS",
+    "oneLiner": "Foundation CSS, themes, and reusable primitives without design-system sprawl.",
+    "license": "MIT",
+    "status": "Shipping",
+    "repo": "https://github.com/SellswordSoftware/nass"
+  },
+  {
+    "id": "justbookmarks",
+    "name": "JustBookmarks",
+    "oneLiner": "A local-first bookmark manager built for people who want durable tools.",
+    "license": "MIT",
+    "status": "Shipping",
+    "repo": "https://github.com/SellswordSoftware/justbookmarks"
+  },
+  {
+    "id": "justpeek",
+    "name": "JustPeek",
+    "oneLiner": "A future cheat-sheet utility for fast, owned reference lookup.",
+    "license": "MIT",
+    "status": "In Development",
+    "repo": ""
+  }
+]

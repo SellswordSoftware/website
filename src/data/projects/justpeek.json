@@ -1,0 +1,23 @@
+{
+  "id": "justpeek",
+  "name": "JustPeek",
+  "oneLiner": "A future cheat-sheet utility for fast, owned reference lookup.",
+  "license": "MIT",
+  "status": "In Development",
+  "description": [
+    "JustPeek is not shipping yet, but it belongs in the lineup so the site shows the trajectory of the catalog.",
+    "For now the page works as a promise of direction rather than finished-product documentation."
+  ],
+  "features": [
+    "Fast lookup of owned reference material",
+    "Designed as a durable utility instead of a subscription service",
+    "Placeholder slot that can grow into a full product page without changing the site architecture"
+  ],
+  "install": [
+    "Not available yet.",
+    "Keep the data entry and route in place so the eventual launch is a content update rather than a code rewrite."
+  ],
+  "repo": "",
+  "releases": "",
+  "docs": ""
+}

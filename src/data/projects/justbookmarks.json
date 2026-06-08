@@ -1,0 +1,23 @@
+{
+  "id": "justbookmarks",
+  "name": "JustBookmarks",
+  "oneLiner": "A local-first bookmark manager built for people who want durable tools.",
+  "license": "MIT",
+  "status": "Shipping",
+  "description": [
+    "JustBookmarks is the clearest expression of the Sellsword philosophy today: the software is yours, the data is yours, and the product stays useful without asking permission from a service.",
+    "It belongs on the front page because it makes the anti-SaaS position concrete instead of rhetorical."
+  ],
+  "features": [
+    "Own-your-data desktop workflow",
+    "MIT-licensed utility with practical day-to-day value",
+    "Evidence that these repos are products, not experiments"
+  ],
+  "install": [
+    "Clone the repo and follow its local setup instructions.",
+    "Use this website entry as the canonical publisher-facing summary page."
+  ],
+  "repo": "https://github.com/SellswordSoftware/justbookmarks",
+  "releases": "https://github.com/SellswordSoftware/justbookmarks/releases",
+  "docs": "https://github.com/SellswordSoftware/justbookmarks#readme"
+}
