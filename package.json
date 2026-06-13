@@ -4,11 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "node esbuild.config.js",
-    "dev": "node scripts/dev.mjs",
-    "dev:build": "node esbuild.config.js --watch",
-    "dev:serve": "node scripts/dev-server.mjs",
-    "preview": "node scripts/dev-server.mjs"
+    "build": "node scripts/build-public.mjs",
+    "dev": "node scripts/dev-server.mjs",
+    "preview": "node scripts/dev-server.mjs --root public"
   },
   "devDependencies": {
     "esbuild": "^0.23.1"

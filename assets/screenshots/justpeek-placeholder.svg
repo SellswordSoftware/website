@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">JustPeek placeholder</title>
+  <desc id="desc">Placeholder artwork for the JustPeek project page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102319" />
+      <stop offset="100%" stop-color="#1b5e37" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)" />
+  <rect x="130" y="110" width="1020" height="580" rx="28" fill="#0d1711" stroke="#7fe0a6" stroke-width="2" />
+  <text x="190" y="205" fill="#ecfff3" font-size="86" font-family="Arial, sans-serif" font-weight="700">JustPeek</text>
+  <text x="190" y="275" fill="#7fe0a6" font-size="34" font-family="Arial, sans-serif">In-development placeholder</text>
+  <rect x="190" y="335" width="760" height="60" rx="18" fill="#163824" stroke="#7fe0a6" stroke-width="2" />
+  <text x="225" y="375" fill="#d9ffe7" font-size="26" font-family="Arial, sans-serif">Search your own reference library...</text>
+  <rect x="190" y="440" width="250" height="150" rx="18" fill="#163824" />
+  <rect x="470" y="440" width="250" height="150" rx="18" fill="#163824" />
+  <rect x="750" y="440" width="250" height="150" rx="18" fill="#163824" />
+  <text x="225" y="500" fill="#d9ffe7" font-size="26" font-family="Arial, sans-serif">Owned docs</text>
+  <text x="505" y="500" fill="#d9ffe7" font-size="26" font-family="Arial, sans-serif">Fast lookup</text>
+  <text x="785" y="500" fill="#d9ffe7" font-size="26" font-family="Arial, sans-serif">No subscription</text>
+  <text x="190" y="640" fill="#7fe0a6" font-size="26" font-family="Arial, sans-serif">Placeholder artwork while the product is still taking shape.</text>
+</svg>

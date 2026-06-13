@@ -1,10 +1,17 @@
 :root {
   color-scheme: dark;
+  --color-bg: var(--color-base-100);
+  --color-surface-2: var(--color-base-200);
+  --color-text: var(--color-base-content);
+  --color-text-muted: var(--color-muted);
+  --color-border: var(--color-border-soft);
+  --color-link: var(--color-primary);
+  --color-accent: var(--color-primary);
   --site-bg:
     radial-gradient(circle at top, color-mix(in srgb, var(--color-surface-2) 50%, transparent), transparent 42%),
     linear-gradient(180deg, var(--color-bg) 0%, color-mix(in srgb, var(--color-bg) 82%, black) 100%);
   --site-max-width: 72rem;
-  --site-accent: color-mix(in srgb, var(--color-accent, var(--color-link)) 75%, white);
+  --site-accent: var(--color-primary);
   --site-shadow: 0 24px 80px rgb(0 0 0 / 0.25);
   --site-grid: linear-gradient(
     to right,
@@ -23,9 +30,10 @@ body {
   background-attachment: fixed;
   color: var(--color-text);
   font-family: "Avenir Next", "Segoe UI", sans-serif;
+  overflow-y: auto;
 }
 
-a {
+a:not(.btn) {
   color: inherit;
 }
 
@@ -70,11 +78,13 @@ a {
 .hero__title,
 .section-title,
 .detail-hero__title {
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .brand__name {
-  font-size: 1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -91,31 +101,50 @@ a {
 }
 
 .nav-link,
-.theme-toggle__button {
+.theme-toggle__button,
+.button-link {
   border-radius: 999px;
-  border: 1px solid color-mix(in srgb, var(--color-border) 75%, transparent);
-  padding: 0.65rem 1rem;
   text-decoration: none;
-  background: color-mix(in srgb, var(--color-surface-1) 80%, transparent);
-  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
 }
 
 .nav-link:hover,
-.theme-toggle__button:hover {
+.theme-toggle__button:hover,
+.button-link:hover {
   transform: translateY(-1px);
-  border-color: var(--site-accent);
+}
+
+.theme-toggle__button {
+  min-width: 1rem;
+}
+
+.theme-toggle__icon {
+  display: inline-block;
+  width: 1.1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.theme-toggle__label {
+  font-size: 0.9rem;
 }
 
 .site-main {
   padding: 3rem 0 4rem;
   display: grid;
-  gap: 3rem;
+  gap: 10rem;
 }
 
 .hero {
   position: relative;
   overflow: hidden;
-  padding: 3rem;
+  padding: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   border: 1px solid color-mix(in srgb, var(--color-border) 75%, transparent);
   border-radius: 2rem;
   background:
@@ -150,13 +179,13 @@ a {
   margin: 0;
   font-size: clamp(2.5rem, 5vw, 4.75rem);
   line-height: 0.95;
-  max-width: 12ch;
+  /* max-width: 12ch; */
 }
 
 .hero__copy,
 .detail-hero__copy,
 .section-copy {
-  max-width: 42rem;
+  /* max-width: 42rem; */
   color: var(--color-text-muted);
   font-size: 1.05rem;
 }
@@ -170,30 +199,15 @@ a {
 }
 
 .button-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   min-height: 2.75rem;
-  padding: 0.7rem 1.15rem;
-  border-radius: 999px;
-  text-decoration: none;
-  border: 1px solid transparent;
-}
-
-.button-link--primary {
-  background: var(--site-accent);
-  color: var(--color-bg);
-}
-
-.button-link--secondary {
-  border-color: color-mix(in srgb, var(--color-border) 75%, transparent);
-  background: color-mix(in srgb, var(--color-surface-1) 75%, transparent);
+  padding-inline: 1.15rem;
 }
 
 .pillars,
 .project-grid,
 .detail-meta,
-.detail-columns {
+.detail-columns,
+.detail-media {
   display: grid;
   gap: 1rem;
 }
@@ -280,6 +294,28 @@ a {
 
 .detail-columns {
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.detail-media {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.media-card {
+  gap: 0.9rem;
+}
+
+.media-card__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 1rem;
+  border: 1px solid color-mix(in srgb, var(--color-border) 75%, transparent);
+  background: color-mix(in srgb, var(--color-surface-2) 70%, transparent);
+}
+
+.media-card__caption {
+  margin: 0;
 }
 
 .copy-section ul {

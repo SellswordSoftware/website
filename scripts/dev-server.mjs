@@ -21,8 +21,6 @@ function readArg(flag, fallback) {
 const host = readArg("--host", "127.0.0.1");
 const port = Number.parseInt(readArg("--port", "43556"), 10);
 const root = resolve(readArg("--root", process.cwd()));
-const indexFile = join(root, "index.html");
-
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
@@ -95,15 +93,6 @@ const server = createServer((req, res) => {
     streamFile(candidate, res);
     return;
   }
-
-  const accept = req.headers.accept || "";
-  const wantsHtml = req.method === "GET" && accept.includes("text/html");
-
-  if (wantsHtml && existsSync(indexFile)) {
-    streamFile(indexFile, res);
-    return;
-  }
-
   send(res, 404, "Not Found", { "content-type": "text/plain; charset=utf-8" });
 });
 

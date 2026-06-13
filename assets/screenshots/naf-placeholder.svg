@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">NAF placeholder</title>
+  <desc id="desc">Placeholder artwork for the NAF project page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1320" />
+      <stop offset="100%" stop-color="#1c365f" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)" />
+  <g fill="none" stroke="#8ec5ff" stroke-width="3" opacity="0.55">
+    <path d="M120 190h1040" />
+    <path d="M120 280h1040" />
+    <path d="M120 370h1040" />
+    <path d="M120 460h1040" />
+    <path d="M120 550h1040" />
+    <path d="M240 140v470" />
+    <path d="M450 140v470" />
+    <path d="M660 140v470" />
+    <path d="M870 140v470" />
+    <path d="M1080 140v470" />
+  </g>
+  <rect x="152" y="120" width="976" height="560" rx="28" fill="#0b1020" stroke="#7cb8ff" stroke-width="2" />
+  <text x="190" y="210" fill="#f2f7ff" font-size="92" font-family="Arial, sans-serif" font-weight="700">NAF</text>
+  <text x="190" y="286" fill="#8ec5ff" font-size="34" font-family="Arial, sans-serif">Fine-grained UI runtime placeholder</text>
+  <circle cx="1030" cy="205" r="64" fill="#14325c" stroke="#8ec5ff" stroke-width="2" />
+  <circle cx="1030" cy="205" r="20" fill="#8ec5ff" />
+  <rect x="190" y="350" width="320" height="170" rx="18" fill="#13233f" stroke="#6daeff" stroke-width="2" />
+  <rect x="540" y="350" width="250" height="170" rx="18" fill="#13233f" stroke="#6daeff" stroke-width="2" />
+  <rect x="820" y="350" width="250" height="170" rx="18" fill="#13233f" stroke="#6daeff" stroke-width="2" />
+  <text x="220" y="405" fill="#f2f7ff" font-size="26" font-family="Arial, sans-serif">Signals</text>
+  <text x="220" y="447" fill="#8ec5ff" font-size="22" font-family="Arial, sans-serif">Effects, computed values,</text>
+  <text x="220" y="477" fill="#8ec5ff" font-size="22" font-family="Arial, sans-serif">and direct DOM control.</text>
+  <text x="570" y="405" fill="#f2f7ff" font-size="26" font-family="Arial, sans-serif">Templates</text>
+  <text x="570" y="447" fill="#8ec5ff" font-size="22" font-family="Arial, sans-serif">Reusable shells with</text>
+  <text x="570" y="477" fill="#8ec5ff" font-size="22" font-family="Arial, sans-serif">minimal ceremony.</text>
+  <text x="850" y="405" fill="#f2f7ff" font-size="26" font-family="Arial, sans-serif">Routing</text>
+  <text x="850" y="447" fill="#8ec5ff" font-size="22" font-family="Arial, sans-serif">Static-host-friendly</text>
+  <text x="850" y="477" fill="#8ec5ff" font-size="22" font-family="Arial, sans-serif">SPA navigation.</text>
+  <text x="190" y="620" fill="#8ec5ff" font-size="26" font-family="Arial, sans-serif">Placeholder artwork until a live example capture is added.</text>
+</svg>

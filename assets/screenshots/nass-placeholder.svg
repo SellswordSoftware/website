@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">NASS placeholder</title>
+  <desc id="desc">Placeholder artwork for the NASS project page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f130d" />
+      <stop offset="100%" stop-color="#5c3c14" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)" />
+  <rect x="120" y="110" width="1040" height="580" rx="32" fill="#fff8ef" />
+  <rect x="120" y="110" width="1040" height="580" rx="32" fill="none" stroke="#f2b468" stroke-width="3" />
+  <text x="180" y="205" fill="#39220f" font-size="92" font-family="Arial, sans-serif" font-weight="700">NASS</text>
+  <text x="180" y="280" fill="#945d1d" font-size="34" font-family="Arial, sans-serif">Theme and primitive CSS placeholder</text>
+  <rect x="180" y="345" width="220" height="96" rx="48" fill="#d47428" />
+  <text x="245" y="404" fill="#fff8ef" font-size="28" font-family="Arial, sans-serif" font-weight="700">Button</text>
+  <rect x="440" y="332" width="250" height="132" rx="24" fill="#fffdf9" stroke="#d7a363" stroke-width="3" />
+  <text x="476" y="386" fill="#39220f" font-size="28" font-family="Arial, sans-serif">Panel primitive</text>
+  <text x="476" y="424" fill="#945d1d" font-size="22" font-family="Arial, sans-serif">Border, radius, spacing</text>
+  <rect x="740" y="332" width="320" height="132" rx="24" fill="#39220f" />
+  <text x="774" y="386" fill="#fff8ef" font-size="28" font-family="Arial, sans-serif">Dark theme</text>
+  <text x="774" y="424" fill="#f2b468" font-size="22" font-family="Arial, sans-serif">Same primitives, different tokens</text>
+  <rect x="180" y="505" width="160" height="48" rx="24" fill="#f5d6ad" />
+  <rect x="360" y="505" width="160" height="48" rx="24" fill="#f0bb76" />
+  <rect x="540" y="505" width="160" height="48" rx="24" fill="#d47428" />
+  <rect x="720" y="505" width="160" height="48" rx="24" fill="#7e4c1f" />
+  <rect x="900" y="505" width="160" height="48" rx="24" fill="#39220f" />
+  <text x="180" y="620" fill="#945d1d" font-size="26" font-family="Arial, sans-serif">Placeholder artwork until a real NASS demo capture is added.</text>
+</svg>
