@@ -6,10 +6,16 @@ const root = process.cwd();
 const publicDir = path.join(root, "public");
 const routesToCopy = ["index.html", "about", "products", "projects", "sitemap.xml"];
 const staticAssetsToCopy = [path.join("assets", "screenshots")];
-const rawAssetBlock = `    <link rel="stylesheet" href="/vendor/nass/src/entries/index.css" />
+const rawAssetBlock = `    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/vendor/nass/src/entries/index.css" />
     <link rel="stylesheet" href="/assets/site.css" />
     <script type="module" src="/assets/theme.js"></script>`;
-const bundledAssetBlock = `    <link rel="stylesheet" href="/dist/main.css" />
+const bundledAssetBlock = `    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/main.css" />
     <script type="module" src="/dist/main.js"></script>`;
 
 async function copySources() {
